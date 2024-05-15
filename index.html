@@ -9,61 +9,88 @@
       href="assets/icons/favicon.ico"
       type="image/x-icon"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>German Club of Hunter College</title>
   </head>
   <body>
-    <div id="everything">
-      <div id="header">
-        <!-- TODO -->
-        <!-- logo
-            nav: home,about us, events, membership, contacts us -->
-      </div>
-      <div id="home">
+    <div class="theme-switch-wrapper">
+      <span id="toggle-icon">
+        <i class="fas fa-sun"></i>
+      </span>
+      <label class="theme-switch">
+        <input type="checkbox" />
+        <div class="slider round"></div>
+      </label>
+    </div>
+    <nav id="nav">
+      <a href="#home">home</a>
+      <a href="#about">about</a>
+      <a href="#events">events</a>
+      <a href="#membership">membership</a>
+      <a href="#contact">contact</a>
+      <a href="#footer">socials</a>
+    </nav>
+    <section id="home">
+      <div class="welcome-group">
+        <img src="./assets/images/flag.jpg" alt="German Flag" />
         <h1>Wilkommen!</h1>
         <p>
           Welcome to the official website of the German Club of Hunter College.
         </p>
       </div>
-      <div id="about">
-        <h2>About Us</h2>
-        <ul>
-          <li>Mission and goals of the club</li>
-          <li>Brief history of the club Leadership team</li>
-          <li>(President, Vice President, etc.)</li>
-          <li>Overview of club activities and initiatives</li>
-        </ul>
+    </section>
+    <section id="about">
+      <h2>About Us</h2>
+      <div class="about-container"></div>
+      <ul>
+        <li>Mission and goals of the club</li>
+        <li>Brief history of the club Leadership team</li>
+        <li>(President, Vice President, etc.)</li>
+        <li>Overview of club activities and initiatives</li>
+      </ul>
+    </section>
+    <section id="events">
+      <h2>Events</h2>
+      <ul>
+        <li>Calendar of upcoming events</li>
+        <li>Past events with photos and descriptions</li>
+        <li>Event registration or RSVP form</li>
+      </ul>
+    </section>
+    <section id="membership">
+      <h2>Membership</h2>
+      <ul>
+        <li>Benefits of joining the club</li>
+        <li>Membership requirements</li>
+        <li>How to join (application form or contact information)</li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <ul>
+        <li>Contact form for general inquiries</li>
+        <li>Club email address</li>
+        <li>Social media links (if applicable)</li>
+        <li>Physical meeting location (if applicable)</li>
+      </ul>
+      <p>
+        Website designed and built by
+        <a href="https://www.linkedin.com/in/ragibasif/">Ragib Asif</a>
+      </p>
+      <p>© 2024 Ragib Asif. All rights reserved.</p>
+      <div class="social-links">
+        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href=""><i class="fab fa-linkedin"></i></a>
+        <a href=""><i class="fab fa-twitter"></i></a>
+        <a href="mailto:"><i class="fas fa-envelope"></i></a>
       </div>
-      <div id="events">
-        <h2>Events</h2>
-        <ul>
-          <li>Calendar of upcoming events</li>
-          <li>Past events with photos and descriptions</li>
-          <li>Event registration or RSVP form</li>
-        </ul>
-      </div>
-      <div id="membership">
-        <h2>Membership</h2>
-        <ul>
-          <li>Benefits of joining the club</li>
-          <li>Membership requirements</li>
-          <li>How to join (application form or contact information)</li>
-        </ul>
-      </div>
-      <div id="contact">
-        <h2>Contact Us</h2>
-        <ul>
-          <li>Contact form for general inquiries</li>
-          <li>Club email address</li>
-          <li>Social media links (if applicable)</li>
-          <li>Physical meeting location (if applicable)</li>
-        </ul>
-      </div>
-      <div id="footer">
-        <p>© [Year] [Your Company Name]. All rights reserved.</p>
-        <ul>
-          <li><a href="">Instagram</a></li>
-        </ul>
-      </div>
-    </div>
+    </section>
+    <script src="script.js"></script>
   </body>
 </html>
