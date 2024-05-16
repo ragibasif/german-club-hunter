@@ -1,6 +1,15 @@
 const toggleSwitch = document.querySelector('input[type="checkbox"]');
-const nav = document.getElementById("nav");
 const toggleIcon = document.getElementById("toggle-icon");
+const nav = document.querySelector("nav");
+const burger = document.querySelector(".burger");
+
+function navToggler() {
+  nav.classList.toggle("nav-active");
+}
+
+burger.addEventListener("click", () => {
+  navToggler();
+});
 
 // Dark Mode Styles
 function darkMode() {
