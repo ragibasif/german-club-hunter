@@ -16,6 +16,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
     <title>German Club of Hunter College</title>
   </head>
   <body>
@@ -31,13 +32,13 @@
       </div>
       <nav id="nav">
         <!-- <div class="logo">German</div> -->
-        <ul class="nav-links">
-          <li><a href="#home">home</a></li>
-          <li><a href="#about">about</a></li>
-          <li><a href="#events">events</a></li>
-          <li><a href="#membership">membership</a></li>
-          <li><a href="#contact">contact</a></li>
-        </ul>
+        <p class="nav-links fade-in fade-in-short">
+          <a href="#home">home</a>
+          <a href="#about">about</a>
+          <a href="#events">events</a>
+          <a href="#membership">membership</a>
+          <a href="#contact">contact</a>
+        </p>
         <div class="burger">
           <div class="line1"></div>
           <div class="line2"></div>
@@ -46,59 +47,141 @@
       </nav>
     </header>
     <section id="home">
-      <div data-aos="fade-up" class="welcome-text">
+      <div class="welcome-text text-card">
         <h1>Wilkommen!</h1>
         <p>
           Welcome to the official website of the German Club of Hunter College.
         </p>
+        <div class="flag-container">
+            <img src="./assets/flags/Flag_of_Germany.svg" alt="">
+            <img src="./assets/flags/Flag_of_Austria.svg" alt="">
+            <img src="./assets/flags/Flag_of_Belgium.svg" alt="">
+            <img src="./assets/flags/Flag_of_Italy.svg" alt="">
+            <img src="./assets/flags/Flag_of_Liechtenstein.svg" alt="">
+            <img src="./assets/flags/Flag_of_Luxembourg.svg" alt="">
+            <img src="./assets/flags/Flag_of_Switzerland.svg" alt="">
+            <img src="./assets/flags/Flag_of_Namibia.svg" alt="">
+            <img src="./assets/flags/Flag_of_South_Tyrol.svg" alt="">
+        </div>
+        <h2>Announcements</h2>
+        <p>Coming in Fall 2024</p>
+
       </div>
     </section>
     <section id="about">
-      <h2>About Us</h2>
-      <div class="about-container"></div>
-      <ul>
-        <li>Mission and goals of the club</li>
-        <li>Brief history of the club Leadership team</li>
-        <li>(President, Vice President, etc.)</li>
-        <li>Overview of club activities and initiatives</li>
-      </ul>
-    </section>
-    <section id="events">
-      <h2>Events</h2>
-      <ul>
-        <li>Calendar of upcoming events</li>
-        <li>Past events with photos and descriptions</li>
-        <li>Event registration or RSVP form</li>
-      </ul>
-    </section>
-    <section id="membership">
-      <h2>Membership</h2>
-      <ul>
-        <li>Benefits of joining the club</li>
-        <li>Membership requirements</li>
-        <li>How to join (application form or contact information)</li>
-      </ul>
-    </section>
-    <section id="contact">
-      <h2>Contact Us</h2>
-      <ul>
-        <li>Contact form for general inquiries</li>
-        <li>Club email address</li>
-        <li>Social media links (if applicable)</li>
-        <li>Physical meeting location (if applicable)</li>
-      </ul>
-      <p>
-        Website designed and built by
-        <a href="https://www.linkedin.com/in/ragibasif/">Ragib Asif</a>
-      </p>
-      <p>© 2024 Ragib Asif. All rights reserved.</p>
-      <div class="social-links">
-        <a href=""><i class="fab fa-instagram"></i></a>
-        <a href=""><i class="fab fa-linkedin"></i></a>
-        <a href=""><i class="fab fa-twitter"></i></a>
-        <a href="mailto:"><i class="fas fa-envelope"></i></a>
+      <div class="about-text text-card" >
+        <h2>About Us</h2>
+        <h3>Our Mission</h3>
+        <p>
+          We will bring more German Culture to Hunter College. We will
+          immerse ourselves into German film, art, music, and food in a casual
+          setting. Whether you're a student/faculty of The German Department or if you
+          are just curious about the German language and culture, all are
+          welcome!
+        </p>
+        <h3>The Team</h3>
+        <div class="image-container">
+          <div class="image-card">
+            <img src="./assets/images/event.jpg" alt="">
+            <p>FirstName LastName</p>
+            <p>Title</p>
+            <p><a href="">Contact/Socials</a></p>
+          </div>
+          <div class="image-card">
+            <img src="./assets/images/event.jpg" alt="">
+            <p>FirstName LastName</p>
+            <p>Title</p>
+            <p><a href="">Contact/Socials</a></p>
+          </div><div class="image-card">
+            <img src="./assets/images/event.jpg" alt="">
+            <p>FirstName LastName</p>
+            <p>Title</p>
+            <p><a href="">Contact/Socials</a></p>
+          </div><div class="image-card">
+            <img src="./assets/images/event.jpg" alt="">
+            <p>FirstName LastName</p>
+            <p>Title</p>
+            <p><a href="">Contact/Socials</a></p>
+          </div><div class="image-card">
+            <img src="./assets/images/event.jpg" alt="">
+            <p>FirstName LastName</p>
+            <p>Title</p>
+            <p><a href="">Contact/Socials</a></p>
+          </div><div class="image-card">
+            <img src="./assets/images/event.jpg" alt="">
+            <p>FirstName LastName</p>
+            <p>Title</p>
+            <p><a href="">Contact/Socials</a></p>
+          </div><div class="image-card">
+            <img src="./assets/images/event.jpg" alt="">
+            <p>FirstName LastName</p>
+            <p>Title</p>
+            <p><a href="">Contact/Socials</a></p>
+          </div><div class="image-card">
+            <img src="./assets/images/event.jpg" alt="">
+            <p>FirstName LastName</p>
+            <p>Title</p>
+            <p><a href="">Contact/Socials</a></p>
+          </div>
+        </div>
+        <!-- <p>Brief history of the club Leadership team</p>
+        <p>(President, Vice President, etc.)</p> -->
       </div>
     </section>
-    <script src="script.js"></script>
+    <section id="events">
+      <div class="events-text text-card">
+        <h2>Events</h2>
+        <!-- <p>Overview of club activities and initiatives</p> -->
+        <!-- <p>Calendar of upcoming events</p>
+        <p>Past events with photos and descriptions</p>
+        <p>Event registration or RSVP form</p> -->
+        <p>
+          You can expect events such as: 
+          <ul>
+            <li>Movie screenings (with English subtitles)</li>
+            <li>Excursions to museums, Goethe Institut, Frederic Morton Library and German restaurants.</li>
+            <li>Creative workshops for exploring German art, music, and literature (with English translation)</li>
+            <li>Open Mic events for poetry or karaoke</li>
+            <li>Kaffeeklatsch (get together and drink coffee/tea)</li>
+          </ul>
+        </p>
+      </div>
+    </section>
+    <section id="membership">
+      <div class="membership-text text-card">
+        <h2>Membership</h2>
+        <h3>Why Join?</h3>
+          <ul>
+            <li>Many opportunities to make new friends and immerse yourself in another culture?</li>
+            <li>Give yourself a chance to practice your German, even if you are not fluent.</li>
+            <li>There is also going to be food at most of the events, so it gives everyone a chance to eat anc chat.</li>
+            <li>Get help with applying for Study Abroad.</li>
+            <li>Merch coming soon!</li>
+          </ul>
+        <p>Membership requirements: Have a genuine interest in the German language and culture.</p>
+        <p>Ready to become a member? Just click right <a href="">here.</a></p>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="contact-text text-card">
+        <h2>Contact Us</h2>
+        <p>Contact form for general inquiries</p>
+        <p>Club email address</p>
+        <p>Physical meeting location <strong>Coming Soon</strong></p>
+        <p>
+          Website designed and built by
+          <a href="https://www.linkedin.com/in/ragibasif/">Ragib Asif</a>
+        </p>
+        <p>© 2024 Ragib Asif. All rights reserved.</p>
+        <div class="social-links">
+          <a href=""><i class="fab fa-instagram"></i></a>
+          <a href=""><i class="fab fa-linkedin"></i></a>
+          <a href=""><i class="fab fa-twitter"></i></a>
+          <a href="mailto:"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+    </section>
+    <script src="script.js">
+    </script>
   </body>
 </html>
