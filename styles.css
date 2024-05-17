@@ -344,6 +344,7 @@ fas {
   flex-direction: row;
   flex-wrap: wrap;
   overflow: hidden;
+  justify-content: center;
 }
 
 .flag-container img {
