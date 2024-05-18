@@ -47,3 +47,43 @@ if (currentTheme) {
     darkMode();
   }
 }
+
+fetch("team.json")
+  .then((response) => response.json())
+  .then((data) => {
+    const container = document.getElementById("team-container");
+    data.forEach((item) => {
+      // Create a card element
+      const card = document.createElement("div");
+      card.classList.add("team-card");
+
+      // Create a name element
+      const name = document.createElement("h2");
+      name.classList.add("team-card-name");
+      name.textContent = item.name;
+
+      // Create a title element
+      const role = document.createElement("h3");
+      role.classList.add("team-card-role");
+      role.textContent = item.role;
+
+      // Create a image element
+      const image = document.createElement("img");
+      image.classList.add("team-card-img");
+      image.src = item.image;
+      // Create a description element
+      const description = document.createElement("p");
+      description.classList.add("team-card-description");
+      description.textContent = item.description;
+
+      // Append title and description to the card
+      card.appendChild(name);
+      card.appendChild(role);
+      card.appendChild(image);
+      card.appendChild(description);
+
+      // Append the card to the container
+      container.appendChild(card);
+    });
+  })
+  .catch((error) => console.error("Error fetching the JSON data:", error));
