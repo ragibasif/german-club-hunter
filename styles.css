@@ -267,6 +267,8 @@ input:checked + .slider::before {
   align-items: center;
   text-align: center;
   justify-content: space-evenly;
+  border: 1px solid;
+  border-color: var(--accent-color);
 }
 
 .team-container {
@@ -282,6 +284,8 @@ input:checked + .slider::before {
   width: 250px;
   height: 400px;
   box-shadow: var(--box-shadow);
+  border: 1px solid;
+  border-color: var(--accent-color);
 }
 .team-card-name {
   font-size: 1.5em;
