@@ -47,7 +47,6 @@ if (currentTheme) {
     darkMode();
   }
 }
-
 fetch("team.json")
   .then((response) => response.json())
   .then((data) => {
