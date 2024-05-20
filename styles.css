@@ -45,8 +45,10 @@ nav {
   align-items: center;
   z-index: 10;
   position: fixed;
-  letter-spacing: 3px;
-  padding: 1rem;
+  letter-spacing: 0.2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.1rem;
   width: 100%;
   background: var(--background-color);
 }
@@ -278,6 +280,7 @@ input:checked + .slider::before {
 }
 
 .team-container {
+  width: 90%;
   display: flex;
   align-items: center;
   text-align: center;
@@ -286,32 +289,39 @@ input:checked + .slider::before {
   gap: 1rem;
 }
 .team-card {
-  border-radius: 20px;
+  border-radius: 0.5rem;
+  border-top-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
   /* margin: 10px; */
-  width: 250px;
-  height: 400px;
+  width: 200px;
+  height: 250px;
   box-shadow: var(--box-shadow);
   border: 1px solid;
   border-color: var(--accent-color);
+  transition: transform 0.3s ease-in-out;
 }
-.team-card-name {
+
+.team-card:hover {
+  transform: scale(1.1) rotate(6deg);
+}
+/* .team-card-name {
   font-size: 1.5em;
   margin-bottom: 10px;
-}
-.team-card-role {
+} */
+/* .team-card-role {
   font-size: 1em;
   margin-bottom: 10px;
-}
+} */
 
 .team-card-img {
   object-fit: cover;
-  width: 90%;
+  width: 70%;
   height: 35%;
 }
 
-.team-card-description {
+/* .team-card-description {
   font-size: 1em;
-}
+} */
 
 /* Keyframes for fade-in animation */
 @keyframes fadeIn {

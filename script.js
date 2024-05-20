@@ -71,15 +71,15 @@ fetch("team.json")
       image.classList.add("team-card-img");
       image.src = item.image;
       // Create a description element
-      const description = document.createElement("p");
-      description.classList.add("team-card-description");
-      description.textContent = item.description;
+      // const description = document.createElement("p");
+      // description.classList.add("team-card-description");
+      // description.textContent = item.description;
 
       // Append title and description to the card
       card.appendChild(name);
       card.appendChild(role);
       card.appendChild(image);
-      card.appendChild(description);
+      // card.appendChild(description);
 
       // Append the card to the container
       container.appendChild(card);
