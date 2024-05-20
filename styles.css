@@ -45,10 +45,8 @@ nav {
   align-items: center;
   z-index: 10;
   position: fixed;
-  letter-spacing: 0.2rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.1rem;
+  letter-spacing: 0.3rem;
+  padding: 1rem;
   width: 100%;
   background: var(--background-color);
 }
@@ -287,36 +285,28 @@ input:checked + .slider::before {
   justify-content: center;
   flex-wrap: wrap;
   gap: 1rem;
+  padding: 0.1rem;
 }
+
 .team-card {
   border-radius: 0.5rem;
-  border-top-left-radius: 3rem;
-  border-bottom-right-radius: 3rem;
-  /* margin: 10px; */
-  width: 200px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   box-shadow: var(--box-shadow);
-  border: 1px solid;
-  border-color: var(--accent-color);
   transition: transform 0.3s ease-in-out;
 }
 
-.team-card:hover {
-  transform: scale(1.1) rotate(6deg);
-}
-/* .team-card-name {
-  font-size: 1.5em;
-  margin-bottom: 10px;
-} */
-/* .team-card-role {
+.team-card-name {
   font-size: 1em;
-  margin-bottom: 10px;
-} */
+}
+.team-card-role {
+  font-size: 1em;
+}
 
 .team-card-img {
   object-fit: cover;
-  width: 70%;
-  height: 35%;
+  width: 90%;
+  height: 60%;
 }
 
 /* .team-card-description {

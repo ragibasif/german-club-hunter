@@ -47,7 +47,7 @@ if (currentTheme) {
     darkMode();
   }
 }
-fetch("team.json")
+fetch("./team/team.json")
   .then((response) => response.json())
   .then((data) => {
     const container = document.getElementById("team-container");
@@ -59,12 +59,12 @@ fetch("team.json")
       // Create a name element
       const name = document.createElement("h2");
       name.classList.add("team-card-name");
-      name.textContent = item.name;
+      name.textContent = item.name + ", " + item.role;
 
       // Create a title element
-      const role = document.createElement("h3");
-      role.classList.add("team-card-role");
-      role.textContent = item.role;
+      // const role = document.createElement("h3");
+      // role.classList.add("team-card-role");
+      // role.textContent = item.role;
 
       // Create a image element
       const image = document.createElement("img");
@@ -77,7 +77,7 @@ fetch("team.json")
 
       // Append title and description to the card
       card.appendChild(name);
-      card.appendChild(role);
+      // card.appendChild(role);
       card.appendChild(image);
       // card.appendChild(description);
 

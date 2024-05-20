@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Diana Ferrari",
+    "role": "President",
+    "description": "This is where you would put the description or bio of the person. The person themselves should write this. This can be very professional or casual. Ensure that there are no spelling or grammatical errors. The person can write as much as they would like but keep it at a reasonable length (one or two paragraphs). This description can be either casual or formal.",
+    "image": "https://placehold.co/600x400",
+    "contact": "https://example.com/"
+  },
+
+  {
+    "name": "Katlynn 'Katie' Fulton",
+    "role": "Vice-President",
+    "description": "This is where you would put the description or bio of the person. The person themselves should write this. This can be very professional or casual. Ensure that there are no spelling or grammatical errors. The person can write as much as they would like but keep it at a reasonable length (one or two paragraphs). This description can be either casual or formal.",
+    "image": "https://placehold.co/600x400",
+    "contact": "https://example.com/"
+  },
+  {
+    "name": "Guerlenns 'Gigi' Moralien",
+    "role": "Secretary",
+    "description": "This is where you would put the description or bio of the person. The person themselves should write this. This can be very professional or casual. Ensure that there are no spelling or grammatical errors. The person can write as much as they would like but keep it at a reasonable length (one or two paragraphs). This description can be either casual or formal.",
+    "image": "https://placehold.co/600x400",
+    "contact": "https://example.com/"
+  },
+  {
+    "name": "Ardita Haxha",
+    "role": "Treasurer",
+    "description": "This is where you would put the description or bio of the person. The person themselves should write this. This can be very professional or casual. Ensure that there are no spelling or grammatical errors. The person can write as much as they would like but keep it at a reasonable length (one or two paragraphs). This description can be either casual or formal.",
+    "image": "https://placehold.co/600x400",
+    "contact": "https://example.com/"
+  },
+  {
+    "name": "Ragib Asif",
+    "role": "Social Media Manager",
+    "description": "This is where you would put the description or bio of the person. The person themselves should write this. This can be very professional or casual. Ensure that there are no spelling or grammatical errors. The person can write as much as they would like but keep it at a reasonable length (one or two paragraphs). This description can be either casual or formal.",
+    "image": "https://placehold.co/600x400",
+    "contact": "https://example.com/"
+  },
+  {
+    "name": "Juan Ore",
+    "role": "Events & Communications Chair",
+    "description": "This is where you would put the description or bio of the person. The person themselves should write this. This can be very professional or casual. Ensure that there are no spelling or grammatical errors. The person can write as much as they would like but keep it at a reasonable length (one or two paragraphs). This description can be either casual or formal.",
+    "image": "https://placehold.co/600x400",
+    "contact": "https://example.com/"
+  }
+]

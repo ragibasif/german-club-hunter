@@ -22,10 +22,10 @@ fetch("team.json")
       //   role.setAttribute("draggable", "false");
 
       // Create a image element
-      const image = document.createElement("img");
-      image.classList.add("team-card-img");
-      image.src = item.image;
-      image.setAttribute("draggable", "false");
+      // const image = document.createElement("img");
+      // image.classList.add("team-card-img");
+      // image.src = item.image;
+      // image.setAttribute("draggable", "false");
 
       // Create a description element
       const description = document.createElement("p");
@@ -38,10 +38,11 @@ fetch("team.json")
       contact.classList.add("team-card-description");
       contact.textContent = "Connect";
       contact.href = item.contact;
+      contact.setAttribute("target", "_blank");
       // Append title and description to the card
       card.appendChild(name);
       //   card.appendChild(role);
-      card.appendChild(image);
+      // card.appendChild(image);
       card.appendChild(description);
       card.appendChild(contact);
 
