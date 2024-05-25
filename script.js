@@ -70,6 +70,7 @@ fetch("./team/team.json")
       const image = document.createElement("img");
       image.classList.add("team-card-img");
       image.src = item.image;
+      image.setAttribute("draggable", "false");
       // Create a description element
       // const description = document.createElement("p");
       // description.classList.add("team-card-description");
@@ -86,3 +87,11 @@ fetch("./team/team.json")
     });
   })
   .catch((error) => console.error("Error fetching the JSON data:", error));
+
+const flagImagesContainer = document.getElementById("flag-container");
+flagImagesContainer.setAttribute("draggable", "false");
+const flagImages = flagImagesContainer.querySelectorAll("img");
+flagImages.forEach((img, index) => {
+  img.setAttribute("draggable", "false");
+  img.setAttribute("id", `flag${index}`);
+});

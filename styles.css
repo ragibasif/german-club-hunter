@@ -340,9 +340,13 @@ input:checked + .slider::before {
 }
 
 .flag-container img {
-  width: 30px;
+  /* width: 30px;
   height: 20px;
-  padding: 3px;
+  padding: 3px; */
+  width: 2rem;
+  height: 1rem;
+  padding: 0.1rem;
+  user-select: none;
 }
 
 #membership-qr {
@@ -363,7 +367,7 @@ input:checked + .slider::before {
 }
 
 .why-join {
-  width: 40%;
+  width: 80%;
   text-align: center;
   align-items: center;
   display: flex;
@@ -375,7 +379,7 @@ input:checked + .slider::before {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 40%;
+  width: 80%;
   text-align: center;
   align-items: center;
 }
