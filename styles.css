@@ -15,7 +15,7 @@
   --text-color: #eeeeee;
   --accent-color: #00aaaa;
   --text-shadow: 0 0 0 #fff, 0 0 1rem #fff, 0 0 0 #fff, 0 0 0 #111,
-    /* Accent color for the glow */ 0 0 1rem #000, 0 0 1rem #000, 0 0 0 #000;
+    0 0 1rem #000, 0 0 1rem #000, 0 0 0 #000;
 }
 
 html {
@@ -29,7 +29,6 @@ body {
   font-family: Space Grotesk, sans-serif;
   color: var(--text-color);
   font-size: 1.2rem;
-  /* text-shadow: var(--text-shadow); */
 }
 
 section {
@@ -54,11 +53,6 @@ nav {
   text-shadow: var(--text-shadow);
 }
 
-/* .logo {
-  color: var(--text-color);
-  font-size: 1.5rem;
-} */
-
 .nav-links {
   list-style: none;
   display: flex;
@@ -68,10 +62,6 @@ nav {
   justify-content: center;
   text-shadow: var(--text-shadow);
 }
-
-/* .nav-links li {
-  margin: 0 1rem;
-} */
 
 .nav-links a {
   color: var(--text-color);
@@ -268,19 +258,11 @@ input:checked + .slider::before {
 .text-card {
   height: 100%;
   width: 90%;
-  /* background-color: var(--background-color); */
-  /* border-radius: 20px; */
-  /* z-index: 1; */
-  /* padding: 10px; */
-  /* box-shadow: var(--box-shadow); */
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  /* justify-content: space-evenly; */
-  /* border: 1px solid; */
-  /* border-color: var(--accent-color); */
 }
 
 .team-container {
@@ -316,10 +298,6 @@ input:checked + .slider::before {
   height: 60%;
 }
 
-/* .team-card-description {
-  font-size: 1em;
-} */
-
 /* Keyframes for fade-in animation */
 @keyframes fadeIn {
   from {
@@ -334,7 +312,6 @@ input:checked + .slider::before {
 .fade-in {
   animation-name: fadeIn;
   animation-duration: 1s;
-  /* animation-fill-mode: both; */
 }
 
 /* flags */
@@ -347,9 +324,6 @@ input:checked + .slider::before {
 }
 
 .flag-container img {
-  /* width: 30px;
-  height: 20px;
-  padding: 3px; */
   width: 2rem;
   height: 1rem;
   padding: 0.1rem;
