@@ -2,7 +2,7 @@
 
 This is a concept website I created for the German language club of Hunter College.
 
-[Demo](https://ragibasif.github.io/german-club-hunter/)
+[Demo](https://germanclubhunter.netlify.app/)
 
 ![App Screenshot](./assets/images/german-club-website-screenshot-dm.png)
 
